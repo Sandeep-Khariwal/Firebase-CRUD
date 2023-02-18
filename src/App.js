@@ -32,7 +32,7 @@ function App() {
     <div className='App' >
       <Router>
         <Routes>
-          <Route path='/' element={<Home/> } />
+          <Route path='*' element={<Home/> } />
           <Route exact path='/Assignment1' element={islogin? <Assignment1 setLogin={setLogin} /> : <Login app={app} setLogin={setLogin}/>} ></Route>
           <Route exact path='/Assignment2' element={<Assignment2/>} />
           <Route exact path='/login' element={<Login app={app} setLogin={setLogin} />} />

@@ -2,7 +2,7 @@
   "name": "internassignment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Sandeep-Khariwal.github.io/Firebase-Projects-",
+  "homepage": "https://Sandeep-Khariwal.github.io/Firebase-Projects",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
