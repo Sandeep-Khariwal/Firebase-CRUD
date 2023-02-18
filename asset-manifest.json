@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Firebase-CRUD/static/css/main.a0af3634.css",
+    "main.css": "/Firebase-CRUD/static/css/main.c08fa170.css",
     "main.js": "/Firebase-CRUD/static/js/main.98efedd7.js",
     "index.html": "/Firebase-CRUD/index.html",
-    "main.a0af3634.css.map": "/Firebase-CRUD/static/css/main.a0af3634.css.map",
+    "main.c08fa170.css.map": "/Firebase-CRUD/static/css/main.c08fa170.css.map",
     "main.98efedd7.js.map": "/Firebase-CRUD/static/js/main.98efedd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0af3634.css",
+    "static/css/main.c08fa170.css",
     "static/js/main.98efedd7.js"
   ]
 }
