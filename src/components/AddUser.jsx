@@ -39,7 +39,7 @@ const AddUser = () => {
   }
 
   return (
-    <section className='contact'>
+    <section className='addUser'>
 
     <motion.form
     initial={{x:"-100vw" , opacity:0}}

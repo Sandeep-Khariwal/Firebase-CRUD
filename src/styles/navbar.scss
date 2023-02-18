@@ -46,7 +46,6 @@ nav{
 @media screen and (max-width:600px) {
     nav {
         padding: 0.8rem;
-        margin: -2%;
 
         >div>h1{
         font-size: 2rem;
@@ -61,15 +60,14 @@ nav{
 
 @media screen and (max-width:400px) {
     nav {
-        padding: 0.4rem;
-        margin: -2%;
+        padding: 0.6rem;
 
         >div>h1{
-        font-size: 0.7rem;
+        font-size: 1.5rem;
         }
 
         > div > a{
-        font-size: 0.5rem;
+        font-size: 0.8rem;
         margin: 0 0.3rem;
         }
     }

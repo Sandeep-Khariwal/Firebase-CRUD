@@ -49,10 +49,11 @@ table{
 
 @media screen and (max-width:700px) {
     table{
+        margin-right: 0;
     thead>tr>th{
-        text-align: left;
-        padding: 0.2rem;
-        font-size: 0.8rem;
+        // text-align: left;
+        padding: 0.4rem;
+        font-size: 1rem;
     }
     tbody>tr>td{
         text-align: left;
@@ -77,13 +78,13 @@ table{
     table{
     thead>tr>th{
         text-align: left;
-        padding: 0.2rem;
-        font-size: 0.5rem;
+        padding: 0.4rem;
+        font-size: 0.8rem;
     }
     tbody>tr>td{
         text-align: left;
-        padding: 0.2rem;
-        font-size: 0.5rem;
+        padding: 0.4rem;
+        font-size: 0.6rem;
 
         .edit{
             align-content: center;
@@ -99,17 +100,17 @@ table{
 }
 }
 
-@media screen and (max-width:325px) {
+@media screen and (max-width:400px) {
     table{
     thead>tr>th{
         text-align: left;
-        padding: 0.2rem;
-        font-size: 0.3rem;
+        padding: 0.3rem;
+        font-size: 0.5rem;
     }
     tbody>tr>td{
         text-align: left;
-        padding: 0.2rem;
-        font-size: 0.3rem;
+        padding: 0.3rem;
+        font-size: 0.4rem;
 
         .edit{
             font-size: 0.3rem;
@@ -119,7 +120,6 @@ table{
         .delete{
             font-size: 0.3rem;
             padding: 0.2rem 0.4rem 0.2rem 0.4rem;
-            align-content: center;
         }
     }
 }

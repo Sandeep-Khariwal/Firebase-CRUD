@@ -1,4 +1,4 @@
-.contact{
+.userEdit{
     height: 100vh;
     width: 100%;
     background-color: black;
@@ -13,7 +13,7 @@
         align-items: center;
         background-color: white;
         padding: 2rem;
-        width: 40%;
+        width: 55%;
         height: 80%;
         justify-content: center;
 
@@ -48,11 +48,12 @@
 }
 
 @media screen and (max-width:600px) {
-    .contact{
+    .userEdit{
         height: 100vh;
         margin-top: 0.11rem;
         > form{
-            height: 80%;
+            width: 70%;
+            height: 70%;
         }
     }
 }

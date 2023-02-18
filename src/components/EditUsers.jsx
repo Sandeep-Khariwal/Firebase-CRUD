@@ -61,7 +61,7 @@ const EditUsers = () => {
   }
 
   return (
-    <section className='contact'>
+    <section className='userEdit'>
 
     <motion.form
       initial={{x:"-100vw" , opacity:0}}
