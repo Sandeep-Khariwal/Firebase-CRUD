@@ -57,7 +57,7 @@ const AllUsers = () => {
                 <Link to ={`/${user._id}`}>
                   <button className='edit'><MdEdit/></button>
                 </Link>
-                <Link to ={`/${user._id}`} >
+                <Link to ={`/addUsers/${user._id}`} >
                   <button className='delete' onClick={()=>deleteUSerDetails(user._id)} ><MdDelete/></button>
                 </Link>
               </td>
