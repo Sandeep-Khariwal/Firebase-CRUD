@@ -12,7 +12,7 @@ const NavBar = () => {
         </motion.div>
 
         <div>
-          <NavLink to={'/'} >Home</NavLink>
+          <NavLink to={'/Firebase/CRUD'} >Home</NavLink>
           <NavLink to={'/allUsers'} >All-User</NavLink>
           <NavLink to={"/addUsers"} >Add-User</NavLink>
         </div>
