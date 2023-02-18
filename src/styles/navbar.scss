@@ -1,7 +1,6 @@
 nav{
     height: 3rem;
     width: 100%;
-    // margin: ;
     padding: 1rem 0 1rem 0;
     display: flex;
     flex-direction: row;
@@ -14,7 +13,7 @@ nav{
       display: flex;
       text-align:center ;
     >h1{
-        margin-left: 1rem;
+        padding-left: 1rem;
         font-size: 40px;
         font-family: Arial, Helvetica, sans-serif;
         background: linear-gradient(to right, #f32170,
@@ -45,7 +44,6 @@ nav{
 
 @media screen and (max-width:600px) {
     nav {
-        padding: 0.8rem;
 
         >div>h1{
         font-size: 2rem;
@@ -60,14 +58,12 @@ nav{
 
 @media screen and (max-width:400px) {
     nav {
-        padding: 0.6rem;
-
         >div>h1{
         font-size: 1.5rem;
         }
 
         > div > a{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         margin: 0 0.3rem;
         }
     }
