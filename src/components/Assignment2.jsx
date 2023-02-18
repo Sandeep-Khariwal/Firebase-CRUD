@@ -49,7 +49,7 @@ const Assignment2 = () =>{
     return(
         <section>
         <div className='asign2'>
-        <button onClick={()=>navigate("/Firebase/CRUD")} >Go Back</button>
+        <button onClick={()=>navigate("/Firebase-CRUD")} >Go Back</button>
         <h1>Reduce Text</h1>
         <input type="text" name='sentance' onChange={onChangeHandler} value={text.sentance} placeholder='Type your sentance' /> 
         <input type="text"  name='letter' onChange={onChangeHandler} placeholder='Type your letter' /> 
