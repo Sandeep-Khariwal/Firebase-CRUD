@@ -48,12 +48,16 @@ const EditUsers = () => {
   // user details submitted here
   const editUserDetails = async(e)=>{
     e.preventDefault()
+    const {name , email , username , phone} = user
+    if(name !== "" && email !== "" && username !=="" && phone !==""){
     console.log("update id is : " + id)
     const userDoc = doc(storage,"user",id);
-
     await updateDoc(userDoc,user)
     alert("Data is edited")
     navigate("/allUsers");
+    }else{
+      alert("Fill all sections are Required")
+    }
   }
 
   return (

@@ -28,9 +28,14 @@ const AddUser = () => {
 
   // user details submitted here
   const addUserDetails = async(e)=>{
-    e.preventDefault();
-    await addDoc(userCollectiomRef,user)
-    navigate("/allUsers");
+    const {name , email , username , phone} = user
+    if(name !== "" && email !== "" && username !=="" && phone !==""){
+      e.preventDefault();
+      await addDoc(userCollectiomRef,user)
+      navigate("/allUsers");
+    }else{
+      alert("Fill all sections are Required")
+    }
   }
 
   return (
@@ -42,12 +47,13 @@ const AddUser = () => {
     transition={{delay:0.3}}
     >
         <h2>Add Users</h2>
-        <input type="text" placeholder='Name' name='name' onChange={onChangeHandler} />
-        <input type="email" placeholder='Email' name='email' onChange={onChangeHandler}  />
-        <input type="text" placeholder='User Name' name='username' onChange={onChangeHandler}  />
-        <input type="number" placeholder='Phone' name='phone' onChange={onChangeHandler}  />
+        <input type="text" placeholder='Name' required={true} name='name' onChange={onChangeHandler} />
+        <input type="email" placeholder='Email' required={true} name='email' onChange={onChangeHandler}  />
+        <input type="text" placeholder='User Name' required={true} name='username' onChange={onChangeHandler}  />
+        <input type="number" placeholder='Phone' required={true} name='phone' onChange={onChangeHandler}  />
 
         <button type='submit' onClick={addUserDetails} >Add User</button>
+       
 
     </motion.form>
 </section>
